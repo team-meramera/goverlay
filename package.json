@@ -27,5 +27,8 @@
     "cmake-js": {
         "runtime": "electron",
         "runtimeVersion": "16.0.10"
-      }
+    },
+    "volta": {
+        "node": "22.14.0"
+    }
 }
