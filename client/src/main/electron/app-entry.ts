@@ -483,10 +483,6 @@ class Application {
     window.on("closed", () => {
       this.windows.delete(name);
     });
-    window.webContents.on("new-window", (e, url) => {
-      e.preventDefault();
-      shell.openExternal(url);
-    });
 
     if (global.DEBUG) {
       window.webContents.on(
